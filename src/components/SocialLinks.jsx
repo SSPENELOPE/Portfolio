@@ -1,12 +1,14 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 function SocialLinks() {
     return (
         <div className="socialLinks">
             <div className="text-light">
-                <h2 className="my-4">Hello</h2>
-                <h3 className="my-4">World</h3>
-                <h4 className="my-4">2.0</h4>
+                <h2 className="my-4"><a className="socialLink" href="https://github.com/SSPENELOPE" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} size="2x" /></a></h2>
+                <h3 className="my-4 mx-2"><a className="socialLink" href="https://www.linkedin.com/in/tyler-poepping-3931b123b/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} size="2x" /></a></h3>
+                <h4 className="my-4"><FontAwesomeIcon icon="fa-solid fa-house" /></h4>
             </div>
         </div>
     )
