@@ -225,7 +225,7 @@
   margin: .5em;
   align-items: flex-end;
   justify-content: space-between;
-  z-index: 1;
+  z-index: 0;
 }
 
 .mern {
@@ -319,6 +319,7 @@
 .contact {
   width: 100vw;
   min-height: 90vh;
+  z-index: 0;
 }
 
 .contactForm {

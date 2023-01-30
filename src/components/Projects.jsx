@@ -17,18 +17,19 @@ function Projects() {
                         <a href="https://still-beach-01787.herokuapp.com/" target="_blank" rel="noreferrer" className="abc"><FontAwesomeIcon icon={faGithub} /></a>
                     </a>
 
-                    <a href="https://sspenelope.github.io/Weather-Dashboard/" className="work-box weather">
+                    <a href="https://sspenelope.github.io/Weather-Dashboard/" target="_blank" rel="noreferrer" className="work-box weather">
                         <h3>JavaScript/API</h3>
                         <a href="https://github.com/SSPENELOPE/Weather-Dashboard" target="_blank" rel="noreferrer" className="abc"><FontAwesomeIcon icon={faGithub} /></a>
                     </a>
  
-                    <a href="https://sspenelope.github.io/Work-Day-Planner/" className="work-box workday">
+                    <a href="https://sspenelope.github.io/Work-Day-Planner/" target="_blank" rel="noreferrer" className="work-box workday">
                         <h3>Jquery/Moment</h3>
                         <a href="https://github.com/SSPENELOPE/Work-Day-Planner" target="_blank" rel="noreferrer" className="abc"><FontAwesomeIcon icon={faGithub} /></a>
                     </a>
 
-                    <a href="https://github.com/SSPENELOPE/Network-API" className="work-box mongo">
+                    <a href="https://github.com/SSPENELOPE/Network-API" target="_blank" rel="noreferrer" className="work-box mongo">
                         <h3>MongoDB Backend</h3>
+                        <FontAwesomeIcon className="abc" icon={faGithub} />
                     </a>
                 </div>
         </div>
