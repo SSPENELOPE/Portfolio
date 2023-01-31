@@ -33,9 +33,9 @@ function Home() {
                 </div>
                 
                 <div>
-                    <FontAwesomeIcon className="text-light" icon={faCertificate} size='3x'/>
+                    <FontAwesomeIcon className="text-light cert" icon={faCertificate} size='3x'/>
                     <a className="certification " href={UofMCert} target="_blank" rel="noreferrer">University of Minnesota Certification</a>
-                    <FontAwesomeIcon className="text-light" icon={faCertificate} size='3x'/>
+                    <FontAwesomeIcon className="text-light cert" icon={faCertificate} size='3x'/>
                 </div>
                 
             </div>

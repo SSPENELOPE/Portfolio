@@ -161,9 +161,13 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
 }
 
 .selfPortrait {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 100%;
   width: 30%;
   background: url(./images/me.jpg);
@@ -402,8 +406,6 @@ textarea.form-control {
   }
   .biography {
     font-size: 12px;
-      flex-direction: column;
-    justify-content: flex-start;
   }
   .selfPortrait {
     max-height: 400px;
@@ -414,5 +416,9 @@ textarea.form-control {
   }
   .input {
     width: 50%;
+  }
+  .certification,
+  .cert {
+    font-size: 15px;
   }
 }
