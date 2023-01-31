@@ -1,12 +1,13 @@
 import React, { useState } from "react";
-import {Link, Navigate } from "react-router-dom";
+import {Link} from "react-router-dom";
+import Resume from "../resume/Poepping.Resume.docx"
 
 
 function Navigation() {
     const [isNavCollapsed, setIsNavCollapsed] = useState(true);
 
-    const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
 
+    const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
     return (
         <nav className="navbar navbar-expand-lg navbar-light customNav ">
             <button className="navbar-toggler customBtn" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded={!isNavCollapsed ? true : false} aria-label="Toggle navigation" onClick={handleNavCollapse}>
@@ -18,16 +19,19 @@ function Navigation() {
             <div className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse nav-section navsec mx-2`} id="navbarNav">
                 <ul className="navbar-nav h4 mx-2">
                     <li className="nav-item active">
-                        <Link to="/" className="nav-link link mx-2" style={{ border: "none" }}>Home</Link>
+                        <a href="./#home" className="nav-link link mx-2" style={{ border: "none" }}>Home</a>
                     </li>
                     <li className="nav-item">
-                        <Link to="/appointment" className="nav-link link mx-2">About Me</Link>
+                        <a href="./#aboutMe" className="nav-link link mx-2">About Me</a>
                     </li>
                     <li className="nav-item">
-                        <Link to="/pricing" className="nav-link link mx-2" href="#">Projects</Link>
+                        <a href="./#projects" className="nav-link link mx-2">Projects</a>
                     </li>
                     <li className="nav-item">
-                        <Link to="#" className="nav-link link mx-2" tabIndex="-1">Contact Me</Link>
+                        <a href="./#contactMe" className="nav-link link mx-2" tabIndex="-1">Contact Me</a>
+                    </li>
+                    <li className="nav-item">
+                        <a href={Resume} className="nav-link link mx-2">Resume</a>
                     </li>
                 </ul>
             </div>
