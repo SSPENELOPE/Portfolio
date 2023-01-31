@@ -33,7 +33,7 @@ function Home() {
                 
                 <div>
                     <FontAwesomeIcon className="text-light" icon={faCertificate} size='3x'/>
-                    <a className="certification " href={UofMCert}>University of Minnesota Certification</a>
+                    <a className="certification " href={UofMCert} target="_blank" rel="noreferrer">University of Minnesota Certification</a>
                     <FontAwesomeIcon className="text-light" icon={faCertificate} size='3x'/>
                 </div>
                 

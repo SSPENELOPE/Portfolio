@@ -31,7 +31,7 @@ function Navigation() {
                         <a href="./#contactMe" className="nav-link link mx-2" tabIndex="-1">Contact Me</a>
                     </li>
                     <li className="nav-item">
-                        <a href={Resume} className="nav-link link mx-2">Resume</a>
+                        <a href={Resume} target="_blank" rel="noreferrer" className="nav-link link mx-2">Resume</a>
                     </li>
                 </ul>
             </div>
