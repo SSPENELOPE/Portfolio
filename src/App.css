@@ -400,4 +400,19 @@ textarea.form-control {
   .intro {
     font-size: 25px;
   }
+  .biography {
+    font-size: 12px;
+      flex-direction: column;
+    justify-content: flex-start;
+  }
+  .selfPortrait {
+    max-height: 400px;
+    min-width: 200px;
+  }
+  .container h3 {
+    font-size: 12px;
+  }
+  .input {
+    width: 50%;
+  }
 }

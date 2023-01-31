@@ -18,9 +18,10 @@ function Home() {
 
     return (
         <div className="homeSection">
+            <div id="home"></div>
             <Navigation />
             <SocialLinks />
-            <div className="homePage" id="home">
+            <div className="homePage">
                 <h1 className="mx-3 display-4 intro" style={introStyle}><strong>{intro}</strong></h1>
             </div>
             <div className="section-1 mx-4">
@@ -38,22 +39,25 @@ function Home() {
                 </div>
                 
             </div>
-
-            <h3 className="text-light margin mx-5" id="aboutMe">About me</h3>
+            <span id="aboutMe"></span>
+            <h3 className="text-light margin mx-5">About me</h3>
 
             <div className="aboutMe">
                 <Aboutme />
             </div>
 
-            <h3 className="text-light mx-5 margin2" id="projects">Projects</h3>
+            <span id="projects"></span>
+            <h3 className="text-light mx-5 margin2">Projects</h3>
 
             <div className="projects">
                 <Projects />
             </div>
 
-            <h3 className="text-light mx-5 margin"  id="contactMe">Contact Me</h3>
-
-            <div className="contact">
+            <span id="contactMe"></span>
+            <h3 className="text-light mx-5 margin">Contact Me</h3>
+            
+            
+            <div className="contact my-5">
                 <Conatct />
             </div>
 
