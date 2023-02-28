@@ -385,12 +385,7 @@ textarea.form-control {
     flex-direction: column;
     flex-wrap: nowrap;
   }
-
-
-
 }
-
-
 
 @media screen and (max-width: 650px) {
   .customNav {

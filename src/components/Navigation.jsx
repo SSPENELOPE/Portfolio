@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import {Link} from "react-router-dom";
-import Resume from "../resume/Poepping.Resume.docx"
+import Resume from "../resume/Tyler.Resume.pdf"
 
 
 function Navigation() {
