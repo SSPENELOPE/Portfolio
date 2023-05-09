@@ -259,14 +259,14 @@
 }
 
 .beard {
-  background: url(./images/beard.png);
+  background: url(./images/starweather.png);
   background-size: cover;
   opacity: 0.4;
 }
 
 .beard:hover {
   content: '';
-  background: url(./images/beard.png);
+  background: url(./images/starweather.png);
   background-size: cover;
   transition: all 0.7s ease-in-out;
   box-shadow: 5px 5px 5px var(--light);
@@ -274,14 +274,14 @@
 }
 
 .weather {
-  background: url(./images/weather.png);
+  background: url(./images/sql.avif);
   background-size: cover;
   opacity: 0.4;
 }
 
 .weather:hover {
   content: '';
-  background: url(./images/weather.png);
+  background: url(./images/sql.avif);
   background-size: cover;
   transition: all 0.7s ease-in-out;
   box-shadow: 5px 5px 5px var(--light);
